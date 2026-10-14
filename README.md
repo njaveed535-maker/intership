@@ -1,2 +1,52 @@
 # intership
 Evaluating scientific reasoning and biological evidence boundaries in open-weight language models.
+# Plant Bio Context Eval
+
+### Evaluating Scientific Reasoning and Biological Evidence Boundaries in Language Models
+
+## Overview
+
+This project investigates whether small open-weight language models preserve essential biological context when answering scientific questions.
+
+The evaluation focuses on three distinctions:
+
+1. Crude plant extracts versus enriched fractions and purified compounds.
+2. In vitro findings versus animal and human evidence.
+3. Computational predictions versus experimentally demonstrated biological effects.
+
+## Research Question
+
+Can a language model distinguish what scientific evidence demonstrates from what remains uncertain or requires further validation?
+
+## Motivation
+
+Biological findings depend on experimental conditions, sample preparation, biological systems, and measured outcomes. This project aims to test whether models preserve these distinctions when interpreting specialized scientific evidence.
+
+## Planned Methodology
+
+- Select an open-weight language model within the specified parameter range.
+- Construct a human-reviewed evaluation dataset.
+- Design paired questions that vary one meaningful scientific detail.
+- Record model outputs under consistent inference settings.
+- Evaluate accuracy, unsupported claims, and sensitivity to experimental context.
+- Document limitations and possible improvements.
+
+## Proposed Improvement
+
+One possible approach is evidence-aware training using carefully curated scientific examples that explicitly identify experimental materials, study systems, measured endpoints, and evidence limitations.
+
+## Project Status
+
+**Status:** Evaluation in progress.
+
+Experimental findings and quantitative results will be added after the model has been run and its outputs have been reviewed.
+
+## Reproducibility
+
+The completed project will include the evaluation dataset, notebook, model identifier, inference settings, scoring methodology, and observed results.
+
+## Researcher
+
+Javeed Ahmed  
+PhD Scholar in Botany, Plant Medicine and Biotechnology  
+Maulana Azad National Urdu University, Hyderabad, India
